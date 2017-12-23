@@ -31,8 +31,8 @@ bot.on("message", function (message) {
         if (message.author.id !== "<@305473992381300736>") return;
     }
 
-    if (message.content === "tudo bom?") {
-        message.channel.sendMessage("Sim amor, e voce?");
+    if (message.content === "tudo bem?") {
+        message.channel.sendMessage("Comigo esta bem! E com voce" + message.author.toString() + " ?");
     }
 
     if (message.content === "eai amor, vai rolar hj anoite?") {
