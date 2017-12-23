@@ -32,7 +32,7 @@ bot.on("message", function (message) {
     }
 
     if (message.content === "tudo bem?") {
-        message.channel.sendMessage("Comigo esta bem! E com voce" + message.author.toString() + " ?");
+        message.channel.sendMessage("Comigo esta bem! E com voce " + message.author.toString() + " ?");
     }
 
     if (message.content === "eai amor, vai rolar hj anoite?") {
