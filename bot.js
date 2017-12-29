@@ -17,6 +17,8 @@ bot.on("ready", function () {
 
 
 bot.on("message", function (message) {
+    var msg = message.content;
+    
     if (message.author.equals(bot.user)) return;
  
     if (message.content === "LUL") {
@@ -27,20 +29,16 @@ bot.on("message", function (message) {
         message.channel.sendMessage("Oie <@231397798497484803> amor <3");
     }
 
-    if (message.content.startsWith(PREFIX + 'Oie')) {
-        if (message.author.id !== "<@305473992381300736>") return;
-    }
-
     if (message.content === "tudo bom?") {
         message.channel.sendMessage("Sim amor, e voce?");
     }
 
     if (message.content === "eai amor, vai rolar hj anoite?") {
-        message.channel.sendMessage("Vai sim amor, vai rolar bem selvagem rsrs");
+         message.channel.sendMessage("Vai sim amor, vai rolar bem selvagem rsrs");
     }
 
-    if (message.content === "talarico") {
-        message.channel.sendMessage("Claro amor, tira essa sua rola dura envergada pra fora que eu vou chupar, e depois mete em mim e goza todinho.");
+    if (msg === "voce e feia") {
+        message.channel.sendMessage("Pq vc nao vai ir tomar no meio do seu cu e encher o saco de outra pessoa?")
     }
 
     if (message.content === "oi") {
