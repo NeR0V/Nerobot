@@ -31,8 +31,8 @@ bot.on("message", function (message) {
         if (message.author.id !== "<@305473992381300736>") return;
     }
 
-    if (message.content === "tudo bem?") {
-        message.channel.sendMessage("Comigo esta bem! E com voce " + message.author.toString() + " ?");
+    if (message.content === "tudo bom?") {
+        message.channel.sendMessage("Sim amor, e voce?");
     }
 
     if (message.content === "eai amor, vai rolar hj anoite?") {
@@ -40,7 +40,7 @@ bot.on("message", function (message) {
     }
 
     if (message.content === "talarico") {
-        message.channel.sendMessage("Com voce?? Nem pensar, eu ja tenho um!");
+        message.channel.sendMessage("Claro amor, tira essa sua rola dura envergada pra fora que eu vou chupar, e depois mete em mim e goza todinho.");
     }
 
     if (message.content === "oi") {
