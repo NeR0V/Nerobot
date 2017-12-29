@@ -23,7 +23,7 @@ bot.on("message", function (message) {
         message.channel.sendMessage("Fon");
     }
 
-    if (message.content === "Oie") {
+    if (message.content === "Oi amor") {
         message.channel.sendMessage("Oie <@231397798497484803> amor <3");
     }
 
