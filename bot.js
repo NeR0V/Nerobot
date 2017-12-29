@@ -18,9 +18,9 @@ bot.on("ready", function () {
 
 bot.on("message", function (message) {
     var msg = message.content;
-    
+
     if (message.author.equals(bot.user)) return;
- 
+
     if (message.content === "LUL") {
         message.channel.sendMessage("Fon");
     }
@@ -38,7 +38,7 @@ bot.on("message", function (message) {
     }
 
     if (msg === "voce e feia") {
-        message.channel.sendMessage("Pq vc nao vai ir tomar no meio do seu cu e encher o saco de outra pessoa?")
+        message.channel.sendMessage("igual vc")
     }
 
     if (message.content === "oi") {
