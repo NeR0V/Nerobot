@@ -44,6 +44,10 @@ bot.on("message", function (message) {
     if (message.content === "oi") {
         message.channel.send("Oi " + message.author.toString() + " !");
     }
+    
+        if (message.content === "gustavoviado") {
+         message.channel.sendMessage("Ele é mesmo, por isso que eu não falo mais com ele")
+    }
 
     if (!message.content.startsWith(PREFIX)) return;
 
