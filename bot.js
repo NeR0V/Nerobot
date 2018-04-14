@@ -48,6 +48,10 @@ bot.on("message", function (message) {
         if (message.content === "gustavoviado") {
          message.channel.sendMessage("Ele é mesmo, por isso que eu não falo mais com ele")
     }
+    
+    if (message.content === ":heart:") {
+         message.channel.sendMessage("Que lindo amor :heart")
+    }
 
     if (!message.content.startsWith(PREFIX)) return;
 
