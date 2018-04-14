@@ -50,7 +50,7 @@ bot.on("message", function (message) {
     }
     
     if (message.content === ":heart:") {
-         message.channel.sendMessage("Que lindo amor :heart")
+         message.channel.sendMessage("Que lindo amor :heart:")
     }
 
     if (!message.content.startsWith(PREFIX)) return;
